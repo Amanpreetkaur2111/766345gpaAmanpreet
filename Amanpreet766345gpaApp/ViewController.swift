@@ -53,10 +53,8 @@ class ViewController: UIViewController {
         self.present(alert,animated: true,completion: nil)
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        
+    override func viewWillDisappear(_ animated: Bool) {
         StudDelegate?.tableView.reloadData()
     }
-    
 }
 

@@ -7,7 +7,6 @@
 
 import Foundation
 struct students {
-    
     var firstName: String
     var lastName: String
     var studId: String
